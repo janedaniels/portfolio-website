@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME 2048</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<header>
+    <div class="container header">
+        <ul class="header-list list">
+            <li class="nav-item"><a class="link" href="#">Про мене</a></li>
+            <li class="nav-item"><a class="link" href="#">Міні-гра 2048</a></li>
+            <li class="nav-item"><a class="link" href="#">Галерея</a></li>
+            <li><a class="link contact-link" href="#formsend">Зв'язатися</a></li>
+        </ul>
+    </div>
+</header>
+<main>
+    <section class="section-about-me">
+        <div class="container">
+            <h1 class="greeting">Привіт, Юзер!</h1>
+            <h2 class="greeting-second">Вітаю тебе на сторінці <span class="game-name">Game 2048</span>!</h2>
+            <p class="about-me-text-up">Я - Євгенія, front-end-розробник ігор. <span class="game-name">Game 2048</span>
+                - це
+                перша моя робота. Написана для тебе, з любов'ю!</p>
+            <p class="about-me-text-down">Meршій читай опис, реєструйся у формі нижче і насолоджуйся грою.</p>
+        </div>
+    </section>
+    <section class="discribe-section">
+        <div class="container discribe">
+            <div class="features-list">
+                <ul class=" features-list list">
+                    <li class="feature-item">
+                        <p class="discribe-h">Мета гри</p>
+                    </li>
+                    <li class="feature-item-discribe">
+                        <p class="discribe-text">Отримати якомога вищий бал, збігаючи числа та об’єднуючи числа. Це
+                            гра-головоломка, яка може тренувати ваш мозок.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="features-list">
+                <ul class=" features-list list">
+                    <li class="feature-item">
+                        <p class="discribe-h">Як грати</p>
+                    </li>
+                    <li class="feature-item-discribe">
+                        <p class="discribe-text">Перетягніть цифрові блоки, щоб перемістити їх. Об’єднайте з тим же
+                            номером, щоб створити більше число. Спробуйте об’єднати номери 2048 і більші.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="features-list">
+                <ul class=" features-list list">
+                    <li class="feature-item">
+                        <p class="discribe-h">Особливості</p>
+                    </li>
+                    <li class="feature-item-discribe">
+                        <p class="discribe-text">Грайте в будь-який час і в будь-якому місці, підключення до Wi-Fi не
+                            потрібне! Налаштування конфіденційності, щоб ваші ігрові дані були захищені та безпечні.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="container section-gallery">
+            <img src="./images/img_1.jpg" alt="scrin-game" width="135px" height="240px">
+            <img src="./images/img_2.jpg" alt="scrin-game" width="135px" height="240px">
+            <img src="./images/img_3.jpg" alt="scrin-game" width="135px" height="240px">
+        </div>
+    </section>
+</main>
+<footer id="formsend" class="footer container">
+    <form action="/form-tabel" method="POST" class="form-field">
+        <div class="label-style-gen">
+            <label for="email" class="label-style">Е-mail:</label>
+            <input type="email" id="email" name="user_email">
+        </div>
+        <div class="label-style-gen">
+            <label for="password" class="label-style">Пароль:</label>
+            <input type="password" id="password" name="user_email_password">
+        </div>
+        <div class="button-part">
+            <button class="button-style" type="submit">Відправити</button>
+        </div>
+    </form>
+</footer>
+</footer>
+</body>
+
+</html>

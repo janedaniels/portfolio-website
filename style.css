@@ -1,0 +1,175 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ol,
+ul {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    color: black;
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.contact-link {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid orange;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.greeting {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.greeting-second {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.game-name {
+    font-weight: 700;
+}
+
+.about-me-text-up {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.about-me-text-down {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.discribe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.features-list {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.feature-item {
+    min-width: 95px;
+    border: 1px solid orange;
+    text-align: left;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.label-style {
+    min-width: 70px;
+    height: 20px;
+    border: 1px solid orange;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.label-style-gen {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.button-part {
+    display: flex;
+    justify-content: center;
+}
+
+.feature-item-discribe {
+    flex-grow: 1;
+}
+
+.discribe-h {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.discribe-text {
+    font-size: 12px;
+}
+
+.section-gallery {
+    display: flex;
+    gap: 5px;
+    justify-content: left;
+}
+
+.button-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 165px;
+    height: 40px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid orange;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
